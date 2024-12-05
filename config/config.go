@@ -1,6 +1,7 @@
 package config
 
 import (
+	"crypto/rsa"
 	"time"
 
 	"github.com/rs/zerolog"
@@ -22,6 +23,14 @@ type Configuration struct {
 	DbPassword string `mapstructure:"DATABASE_PASSWORD"`
 	DbSSLMode  string `mapstructure:"DATABASE_SSL_MODE"`
 	DbTimeout  int    `mapstructure:"DATABASE_TIMEOUT"`
+
+	JWTAlgorithm  string        `mapstructure:"JWT_ALGO"`
+	JWTDefaultExp time.Duration `mapstructure:"JWT_DEFAULT_EXPIRATION"`
+	JWTPublicKey  string        `mapstructure:"JWT_PUBLIC_KEY"`
+	JWTPrivateKey string        `mapstructure:"JWT_PRIVATE_KEY"`
+
+	RSAPublicKey  *rsa.PublicKey
+	RSAPrivateKey *rsa.PrivateKey
 }
 
 func LoadConfig(path string, log *zerolog.Logger) *Configuration {

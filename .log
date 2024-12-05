@@ -1,0 +1,23 @@
+{"level":"info","time":"2024-12-05T19:22:25+07:00","message":"Starting marketplace-service..."}
+{"level":"info","time":"2024-12-05T19:41:07+07:00","message":"Starting marketplace-service..."}
+{"level":"info","time":"2024-12-05T19:41:07+07:00","message":"Application is running in LOCAL and listening to port 8080"}
+{"level":"info","ip":"127.0.0.1","latency":"288.583µs","status":200,"method":"GET","url":"/","time":"2024-12-05T19:41:43+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"634.208µs","status":200,"method":"GET","url":"/","time":"2024-12-05T19:41:43+07:00","message":"Success"}
+{"level":"warn","ip":"127.0.0.1","latency":"4.959µs","status":400,"method":"GET","url":"/favicon.ico","time":"2024-12-05T19:41:43+07:00","message":"Client error"}
+{"level":"warn","ip":"127.0.0.1","latency":"95.083µs","status":400,"method":"GET","url":"/favicon.ico","time":"2024-12-05T19:41:43+07:00","message":"Client error"}
+{"level":"info","ip":"127.0.0.1","latency":"120.417µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:49+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"243.708µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:49+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"3.593125ms","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:50+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"3.715417ms","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:50+07:00","message":"Success"}
+{"level":"warn","ip":"127.0.0.1","latency":"3.792µs","status":400,"method":"GET","url":"/favicon.ico","time":"2024-12-05T19:41:50+07:00","message":"Client error"}
+{"level":"warn","ip":"127.0.0.1","latency":"71.375µs","status":400,"method":"GET","url":"/favicon.ico","time":"2024-12-05T19:41:50+07:00","message":"Client error"}
+{"level":"info","ip":"127.0.0.1","latency":"242.125µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:53+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"392.459µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:53+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"12.416µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:54+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"94.042µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:54+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"294.583µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:54+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"338.75µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:54+07:00","message":"Success"}
+{"level":"warn","ip":"127.0.0.1","latency":"2.916µs","status":400,"method":"GET","url":"/favicon.ico","time":"2024-12-05T19:41:54+07:00","message":"Client error"}
+{"level":"warn","ip":"127.0.0.1","latency":"354.833µs","status":400,"method":"GET","url":"/favicon.ico","time":"2024-12-05T19:41:54+07:00","message":"Client error"}
+{"level":"info","ip":"127.0.0.1","latency":"296.833µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:58+07:00","message":"Success"}
+{"level":"info","ip":"127.0.0.1","latency":"480.667µs","status":200,"method":"GET","url":"/metrics","time":"2024-12-05T19:41:58+07:00","message":"Success"}
